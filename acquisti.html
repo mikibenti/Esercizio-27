@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio27</title>
+</head>
+<body>
+    <form action="gestione.php" method="post">
+        Nome Oggetto<br>
+        <input type="text" name="nome">
+        <br>Costo<br>
+        <input type="text" name="costo">
+        <br>Quantità<br><br>
+        <select name="quantita" id="quantita">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br><br>Usato?<br>
+        <input type="checkbox" id="usato" name="check1" value="Usato">Si<br>
+        <br>Metodo di Pagamento<br>
+        <input type="radio" id="pagamento" name="radio" value="Contanti">Contanti<br>
+        <input type="radio" id="pagamento" name="radio" value="Carta">Carta<br>
+        <input type="radio" id="pagamento" name="radio" value="Buono Digitale">Buono Digitale<br>
+        <br><input type="submit">
+    </form>
+</body>
+</html>
